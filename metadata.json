@@ -1,0 +1,6 @@
+{
+  "name": "Prism AI PM Studio",
+  "description": "Enterprise AI Product Manager decision toolkit: unit economics & ROI, side-by-side model evaluation metrics with Recharts, golden dataset evals, agentic human-in-the-loop governance, automated PRD builder, and statistical A/B experimentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0b0c0e;
+    color: #e2e4e9;
+    letter-spacing: -0.01em;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Minimalist Dark Canvas & Surfaces */
+.surface-card {
+  background-color: #121417;
+  border: 1px solid #1f2328;
+}
+
+.surface-sub {
+  background-color: #16181d;
+  border: 1px solid #242830;
+}
+
+.surface-elevated {
+  background-color: #1a1d23;
+  border: 1px solid #2a2f38;
+}
+
+/* Restrained, Minimalist Input Styles */
+input[type="range"] {
+  accent-color: #e2e4e9;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #242830;
+  height: 4px;
+  border-radius: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #f1f2f4;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+/* Discrete Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #242830;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #363c48;
+}
+
+/* Clean, Unboxed Status Identifiers (Subtle, No Neon Glow) */
+.status-verified {
+  color: #34d399;
+}
+.status-neutral {
+  color: #9499a5;
+}
+.status-caution {
+  color: #fbbf24;
+}
+.status-critical {
+  color: #f87171;
+}
